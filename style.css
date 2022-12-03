@@ -29,7 +29,7 @@ h3 {
 a, .secondheader {
     color: #E5E7EB;
     font-size: 18px;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 a {
@@ -56,7 +56,7 @@ button {
 .mainimg {
     max-width: 700px;
     width: 100%;
-    min-width: 300px;
+    min-width: 400px;
 }
 
 .subimg {
@@ -78,12 +78,11 @@ button {
     margin: 0;
 }
 
-
-
 .headbot {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .infofont {
