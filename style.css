@@ -122,3 +122,39 @@ button {
     max-width: 1000px;
     margin: auto;
 }
+
+.signup {
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto /*150px*/;
+    padding: 020px 50px;
+    min-width: 500px;
+    max-width: 1200px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.call {
+    font-size: 24px;
+    margin: 5px;
+}
+.sign {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.buttonborder {
+    border:1px solid #e5e7eb;
+    min-width: 81px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
+}
