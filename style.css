@@ -15,6 +15,12 @@ h1 {
     font-size: 24px;
 }
 
+h2 {
+    text-align: center;
+    color: #636464;
+    padding: 30px;
+    font-size: 36px;
+}
 h3 {
     font-size: 48px;
     font-weight: 900;
@@ -53,6 +59,12 @@ button {
     min-width: 300px;
 }
 
+.subimg {
+    border: 5px solid #3882f6;
+    width: 200px;
+    border-radius: 5px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -66,8 +78,47 @@ button {
     margin: 0;
 }
 
+
+
 .headbot {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.infofont {
+    color: #636464;
+    font-size: 18px;
+    max-width: 180px;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.information {
+    display: flex;
+    justify-content:center;
+    gap: 45px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 75px 125px;
+}
+
+.quotefont {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.citefont {
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: right;
+    max-width: 1000px;
+    margin: auto;
 }
