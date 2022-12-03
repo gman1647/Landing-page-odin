@@ -90,13 +90,15 @@ button {
     font-size: 18px;
     max-width: 180px;
     text-align: center;
-    margin: 0 auto 100px auto;
+    margin: /*0 auto 100px*/ auto;
 }
 
 .information {
     display: flex;
     justify-content:center;
     gap: 45px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .quote {
@@ -111,6 +113,7 @@ button {
     text-align: justify;
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .citefont {
